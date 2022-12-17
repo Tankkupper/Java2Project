@@ -17,7 +17,7 @@ public class RepositoryController {
 
 
     @GetMapping("/repository")
-    public List<RepositoryEntity> findAllRepository(){
+    public List<RepositoryEntity> findAllRepository() {
         return repositoryMapper.selectAll();
     }
 

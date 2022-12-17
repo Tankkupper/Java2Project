@@ -33,6 +33,6 @@ public class ReleaseController {
                                          @PathVariable int limit,
                                          @PathVariable int page){
         // the page begin with 1
-        return releaseMapper.limitAndPage(id, limit, (page-1)*limit);
+        return releaseMapper.limitAndPage(id, limit, (page - 1) * limit);
     }
 }

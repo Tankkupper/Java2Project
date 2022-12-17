@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.sql.Timestamp;
@@ -44,7 +43,7 @@ public class CrawlerController {
     }
 
     @PostMapping("/crawler")
-    public String crawler(@RequestBody RepositoryEntity repository){
+    public String crawler(@RequestBody RepositoryEntity repository) {
         if (crawlerThread != null  && crawlerThread.isAlive()) {
             return "Crawler is working!";
         }
@@ -166,8 +165,8 @@ public class CrawlerController {
                 JSONObject obj = (JSONObject) releases.get(i);
                 Timestamp smallTime;
                 Timestamp largeTime = DateUtil.ISOToTimestamp(obj.getString("created_at"));
-                if (i != releases.size()-1) {
-                    smallTime = DateUtil.ISOToTimestamp(((JSONObject) releases.get(i+1)).getString("created_at"));
+                if (i != releases.size() - 1) {
+                    smallTime = DateUtil.ISOToTimestamp(((JSONObject) releases.get(i + 1)).getString("created_at"));
                 } else {
                     smallTime = Timestamp.valueOf("2000-01-01 00:00:01");
                 }

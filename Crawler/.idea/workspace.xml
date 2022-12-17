@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e0fea59-c1d1-418c-90e5-2ed49ffc52e1" name="变更" comment="&quot;Initialize crawler&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java2/AppTest.java" afterDir="false" />
+    <list default="true" id="2e0fea59-c1d1-418c-90e5-2ed49ffc52e1" name="变更" comment="&quot;Finish&quot;">
+      <change beforePath="$PROJECT_DIR$/src/main/java/java2/controller/CommitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java2/controller/CommitController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +151,7 @@
       <workItem from="1670926778903" duration="28000" />
       <workItem from="1670971444668" duration="623000" />
       <workItem from="1670972203683" duration="835000" />
+      <workItem from="1671284192050" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Initialize crawler&quot;">
       <created>1668148728756</created>
@@ -169,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668148728756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;Finish&quot;">
+      <created>1671284267780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671284267780</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +186,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Initialize crawler&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Initialize crawler&quot;" />
+    <MESSAGE value="&quot;Finish&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Finish&quot;" />
   </component>
 </project>

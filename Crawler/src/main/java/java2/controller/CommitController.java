@@ -13,7 +13,7 @@ public class CommitController {
     @Autowired
     CommitMapper commitMapper;
 
-    @GetMapping("/repository/{id}/commits/statistics")
+    @GetMapping("/repository/{id}/ ")
     public CommitDateStatistics getStatistics(@PathVariable int id) {
         int sunday = commitMapper.sundayNum(id);
         int monday = commitMapper.mondayNum(id);
@@ -21,11 +21,12 @@ public class CommitController {
         int wednesday = commitMapper.wednesdayNum(id);
         int thursday = commitMapper.thursdayNum(id);
         int friday = commitMapper.fridayNum(id);
-        int saturday =commitMapper.saturdayNum(id);
+        int saturday = commitMapper.saturdayNum(id);
         // from [0,12)
         int morning = commitMapper.morning(id);
         // from [12, 24)
         int afternoon = commitMapper.afternoon(id);
-        return new CommitDateStatistics(sunday, monday, tuesday, wednesday, thursday, friday, saturday, morning, afternoon);
+        return new CommitDateStatistics(
+                sunday, monday, tuesday, wednesday, thursday, friday, saturday, morning, afternoon);
     }
 }
